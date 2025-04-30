@@ -18,21 +18,17 @@ Here is the rendered HTML output from our simple Quarto document:
 # Initialize Git 
 
 In Rstudio *Terminal* use the following commands 
-
-
 - git init 
 - git add .
 - git commit -m "Message"
 
 # Create a repository in GitHub
 Use the repository link and follow the commands
-
 - git remote add origin *https://github.com/...*
 - git push -u origin main
 
 # Create a new branch 
 In Rstudio *Terminal* use the following commands
-
 - git checkout -b testbranch 
 
 # Make changes 
