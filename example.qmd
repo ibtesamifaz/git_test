@@ -7,4 +7,8 @@ format: html
 ## Introduction
 A line for screenshot 
 
+<<<<<<< HEAD
 A line again
+=======
+A line for conflict
+>>>>>>> master
