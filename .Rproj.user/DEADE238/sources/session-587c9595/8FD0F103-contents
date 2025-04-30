@@ -1,0 +1,46 @@
+---
+title: "Guide for Git"
+author: "Ibtesam Ifaz"
+format: html
+---
+
+# Introduction
+A line added for example
+
+Different line on main branch 
+
+# Knitted HTML Result
+
+Here is the rendered HTML output from our simple Quarto document:
+
+![](SS_qmd.png)
+
+# Initialize Git 
+
+In Rstudio *Terminal* use the following commands 
+- git init 
+- git add .
+- git commit -m "Message"
+
+# Create a repository in GitHub
+Use the repository link and follow the commands
+- git remote add origin *https://github.com/...*
+- git push -u origin main
+
+# Create a new branch 
+In Rstudio *Terminal* use the following commands
+- git checkout -b testbranch 
+
+# Make changes 
+- Make sure to commit and push
+
+# Add data folder 
+command line 
+- mkdir data
+- paste the excel file
+- commit using git *add data/*
+
+# Amend last commit 
+- git log --oneline
+- use the commit hash to execute *git revert*
+- git push
